@@ -1,0 +1,78 @@
+.home {
+    .products {
+        text-align: center;
+        font-family: 
+        Proxima-Nova-Regular;
+        font-style: italic;
+        display: flex;
+        justify-content: space-between;
+
+        margin: 0 auto;
+        max-width: 980px;
+        min-height: 400px;
+        padding-top: 40px;
+        // background-color:darkgrey;
+
+        .services {
+            width: 300px;
+            min-height: 350px;
+            margin-bottom: 40px;
+            // background-color: 
+            // cadetblue;
+
+            img {
+                width: 300px;
+                height: 350px;
+                border-radius: 15px;
+                margin-bottom: 30px;
+            }
+        }
+
+    }
+
+    .comments {
+        flex-direction: column;
+        width: 100%;
+            min-height: 200px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.40)) ,url(../images/costumer.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .comments-callout {
+                max-width: 520px;
+                min-height: 226px;
+                color: #fff;
+                text-align: center;
+                h1 {
+                    font-size: 60px;
+                    font-style: normal;
+                    font-family: ProximaNovaScOsfExtraCondensed;
+                    text-transform: lowercase;
+                }
+
+                p {
+                    font-size: 20px;
+                    font-style: italic;
+                    font-family: Gillsans;
+                    line-height: 23px;
+                    
+                }
+            }
+
+    }
+
+}
+
+@media only screen  and (max-width: 1000px){
+    .products {
+        flex-direction: column;
+        align-items: center;
+        background-image:
+            linear-gradient(#25f5ef,#fff,#25f5ef, #fff, #25f5ef, #fff);
+
+        font-size: 20px; 
+        color: rgb(94, 90, 90); 
+    }
+    
+}

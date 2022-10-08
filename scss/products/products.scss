@@ -1,0 +1,79 @@
+.item-product {
+    max-width: 100%;
+    min-height: 600px;
+    text-align: center;
+    font-family: Proxima-Nova-Regular;
+    font-style: italic;
+    // background-color: aqua;
+
+   
+
+    .hero-image {
+        width: 100%;
+        height: 400px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.40)) ,url(../images/product-hero.jpg);
+    }
+
+    .item {
+        width: 250px;
+        min-height: 310px;
+        margin-bottom: 40px;
+        // background-color: 
+        // cadetblue;
+            img {
+                width: 250px;
+                height: 310px;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+       
+    }
+
+    .wrapper {
+        width: 830px;
+        margin: 0 auto;
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between ;
+        flex-wrap: wrap;
+        // background-color: brown;
+    }
+
+
+    @media only screen and (max-width: 835px){
+       
+            .wrapper {
+                background-image:
+            linear-gradient(#25f5ef,#fff,#25f5ef, #fff, #25f5ef, #fff);
+                width: 100%;
+                justify-content: center;
+                
+                p {
+                    background-color: #25f5ef;
+                    border-radius: 15px;
+                    text-align: center;
+                    padding: 5px;
+                }
+                
+            } 
+               
+        
+    }
+
+    // @media only screen and (max-width: 580px){
+    //     .wrapper {
+    //         width: 250px;
+    //     }
+        
+    // }
+}
+
+@media only screen and (max-width: 835px){
+    .item-product {
+            .item {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+    }
+    
+}

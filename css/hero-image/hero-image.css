@@ -1,0 +1,38 @@
+.site-container .picture {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.site-container .hero-image {
+  width: 100%;
+  height: 400px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.4))), url(../images/hero.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+}
+.site-container .hero-image .callout {
+  width: 416px;
+  height: 226px;
+  color: #fff;
+  text-align: center;
+}
+.site-container .hero-image .callout h1 {
+  font-size: 60px;
+  font-style: normal;
+  font-family: ProximaNovaScOsfExtraCondensed;
+  text-transform: lowercase;
+}
+.site-container .hero-image .callout p {
+  font-size: 20px;
+  font-style: italic;
+  font-family: Gillsans;
+  line-height: 23px;
+}

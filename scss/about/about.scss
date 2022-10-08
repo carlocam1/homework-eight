@@ -1,0 +1,106 @@
+.about {
+        max-width: 100%;
+        min-height: 600px;
+        // background-color: aqua;
+
+    
+        p {
+            font-family: Proxima-Nova-Regular;
+            font-style: italic;
+            text-align: center;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 400px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.40)) ,url(../images/3d-modeling.jpg);
+        }
+
+        .owners {
+        margin: 0 auto;
+        max-width: 980px;
+        min-height: 300px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        // background-color: burlywood;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-family: ProximaNovaScOsfExtraCondensed;
+        }
+
+            .owner-container {
+                max-width: 650px;
+                min-height: 300px;
+                display: flex;
+                // background-color: cadetblue;
+
+
+                .own-left {
+                img {
+                width:250px;
+                height: 300px;
+                border-radius: 20px;
+                }
+                }
+
+                .own-right {
+                    margin-bottom: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-left: 20px;
+                    width: 380px;
+                    height: 300px;
+                    background-color:rgb(240, 130, 52);
+                    border-radius: 20px;
+
+
+                }
+            }
+        }
+
+        .comments {
+            width: 100%;
+            min-height: 300px;
+            flex-direction: column;
+            // background-color: brown;
+
+            .about-image {
+
+                img {
+                    width: 250px;
+                    height: 250px;
+                    border-radius: 150px;
+                }
+
+                .text {
+                    width: 500px;height: 200px;
+                    // background-color: blanchedalmond;
+                }
+            }
+
+            .text {
+                padding-top: 10px;
+                max-width: 500px;
+                background-color:#f08234;
+                border-radius: 20px;
+            }
+        }
+}
+
+@media only screen and (max-width: 800px) {
+    .owners {
+        background-image:
+            linear-gradient(#f08234,#fff,#f08234, #fff, #f08234, #fff);
+
+    .owner-container {
+        flex-direction: column;
+        // align-items: center;      
+    }
+
+}
+    
+}
